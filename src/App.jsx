@@ -31,18 +31,34 @@ export default function App() {
       </div>
 
 
-        <div className="absolute bottom-2 left-1/2 -translate-x-1/2 text-[#ff3c00] flex gap-x-1">
-            <p>built by</p>
-            <Magnetic>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="hover:font-bold transition-all duration-100"
-                href="https://www.huyng.xyz"
-              >
-                HuyNG
-              </a>
-            </Magnetic>
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-[#ff3c00] flex gap-x-2">
+            <div className="flex gap-x-1">
+              <p>Magnetic hover built by</p>
+              <Magnetic>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:font-bold transition-all duration-100"
+                  href="https://www.huyng.xyz"
+                >
+                  HuyNG
+                </a>
+              </Magnetic>
+            </div>
+            &
+            <div className="flex gap-x-1">
+              <p>Credits: </p>
+              <Magnetic>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:font-bold transition-all duration-100"
+                  href="https://www.youtube.com/watch?v=Sb00VR5N-fw"
+                >
+                  Oliver
+                </a>
+              </Magnetic>
+            </div>
         </div>
     </div>
   );
