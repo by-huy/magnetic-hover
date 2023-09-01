@@ -10,8 +10,9 @@ export default function App() {
           </a>
         </Magnetic>
         <Magnetic>
-          <a href="">
+          <a href="" className="group relative">
             <span>Services</span>
+            <div className="absolute rounded-full  group-hover:opacity-100 opacity-0 duration-100 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#292929]"></div>
           </a>
         </Magnetic>
         <Magnetic>
